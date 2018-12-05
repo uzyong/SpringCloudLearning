@@ -12,3 +12,8 @@ eureka:
 spring:
   application:
     name=: SERVICE-FEIGN
+
+#´ò¿ªÈÛ¶ÏÆ÷
+feign:
+  hystrix:
+    enabled: true
