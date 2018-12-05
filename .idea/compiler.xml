@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-client-8771" />
         <module name="eureka-server-8761" />
+        <module name="service-feign" />
         <module name="service-ribbon" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka-client-8771" options="-parameters" />
       <module name="eureka-server-8761" options="-parameters" />
+      <module name="service-feign" options="-parameters" />
       <module name="service-ribbon" options="-parameters" />
     </option>
   </component>
