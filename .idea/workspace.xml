@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91b4f59d-89eb-4574-b9df-f8d4e069a218" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/service-feign/src/main/java/cn/uzyong/st/servicefeign/service/SchedualServiceHiHystric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-ribbon/README.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-feign/src/main/java/cn/uzyong/st/servicefeign/service/FeignService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-feign/src/main/java/cn/uzyong/st/servicefeign/service/FeignService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-feign/src/main/resources/application-8782.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-feign/src/main/resources/application-8782.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-ribbon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-ribbon/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-ribbon/src/main/java/cn/uzyong/st/serviceribbon/ServiceRibbonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-ribbon/src/main/java/cn/uzyong/st/serviceribbon/ServiceRibbonApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-ribbon/src/main/java/cn/uzyong/st/serviceribbon/service/HomeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-ribbon/src/main/java/cn/uzyong/st/serviceribbon/service/HomeService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -72,8 +65,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="756" />
-          <entry key="PLAIN_TEXT" value="117" />
+          <entry key="JAVA" value="794" />
+          <entry key="PLAIN_TEXT" value="129" />
           <entry key="Properties" value="45" />
           <entry key="Scratch" value="34" />
           <entry key="XML" value="25" />
@@ -139,11 +132,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/cn/uzyong/st/servicefeign/ServiceFeignApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+            <state relative-caret-position="193">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#530#531#0" expanded="true" />
                 <element signature="e#604#605#0" expanded="true" />
@@ -156,7 +149,7 @@
         <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/cn/uzyong/st/servicefeign/service/FeignService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="128">
-              <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+              <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -164,11 +157,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/cn/uzyong/st/servicefeign/service/SchedualServiceHiHystric.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
+            <state relative-caret-position="100">
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+              <folding>
+                <element signature="e#158#159#0" expanded="true" />
+                <element signature="e#185#186#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -414,7 +411,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -506,7 +503,7 @@
       <option name="presentableId" value="Default" />
       <updated>1543997187450</updated>
       <workItem from="1543997190906" duration="4468000" />
-      <workItem from="1544018608451" duration="5512000" />
+      <workItem from="1544018608451" duration="5811000" />
     </task>
     <task id="LOCAL-00001" summary="[feat]新建springcloud工程：server">
       <created>1543998820739</created>
@@ -543,7 +540,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544022872726</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[feat]添加熔断器功能">
+      <created>1544025160216</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1544025160216</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -552,19 +556,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9980000" />
+    <option name="totallyTimeSpent" value="10279000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49772727" visible="true" weight="0.2386059" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49772727" visible="true" weight="0.2386059" />
       <window_info id="Structure" order="1" sideWeight="0.5022727" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" sideWeight="0.5022727" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.5022727" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Run Dashboard" visible="true" weight="0.29368576" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" visible="true" weight="0.29368576" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32892805" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32452276" />
@@ -601,7 +604,8 @@
     <MESSAGE value="[feat]增加工程：spring-client-8771" />
     <MESSAGE value="[feat]增加工程：spring-ribbon,端口是8781" />
     <MESSAGE value="[feat]增加工程：spring-feign,端口是8782" />
-    <option name="LAST_COMMIT_MESSAGE" value="[feat]增加工程：spring-feign,端口是8782" />
+    <MESSAGE value="[feat]添加熔断器功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feat]添加熔断器功能" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -782,21 +786,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/cn/uzyong/st/servicefeign/ServiceFeignApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding>
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#604#605#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/cn/uzyong/st/servicefeign/service/FeignService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
-          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -805,8 +798,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/cn/uzyong/st/servicefeign/service/SchedualServiceHiHystric.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
+        <state relative-caret-position="100">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <folding>
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/cn/uzyong/st/servicefeign/ServiceFeignApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
