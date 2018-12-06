@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="config-client" />
         <module name="config-server" />
         <module name="eureka-client-8771" />
         <module name="eureka-server-8761" />
@@ -17,6 +18,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config-client" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="eureka-client-8771" options="-parameters" />
       <module name="eureka-server-8761" options="-parameters" />
