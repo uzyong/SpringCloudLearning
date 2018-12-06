@@ -10,6 +10,7 @@
         <module name="config-server" />
         <module name="eureka-client-8771" />
         <module name="eureka-server-8761" />
+        <module name="eureka-server-8889" />
         <module name="service-feign" />
         <module name="service-ribbon" />
         <module name="service-zuul" />
@@ -22,6 +23,7 @@
       <module name="config-server" options="-parameters" />
       <module name="eureka-client-8771" options="-parameters" />
       <module name="eureka-server-8761" options="-parameters" />
+      <module name="eureka-server-8889" options="-parameters" />
       <module name="service-feign" options="-parameters" />
       <module name="service-ribbon" options="-parameters" />
       <module name="service-zuul" options="-parameters" />

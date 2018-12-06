@@ -9,33 +9,25 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <groupId>cn.uzyong.st</groupId>
-    <artifactId>config-server</artifactId>
+    <artifactId>eureka-server-8889</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>config-server</name>
+    <name>eureka-server-8889</name>
     <description>Demo project for Spring Boot</description>
 
 
     <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
+
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-config-server</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
 
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
     </dependencies>
+
 
 </project>
