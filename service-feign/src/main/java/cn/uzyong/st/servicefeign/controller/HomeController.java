@@ -14,7 +14,7 @@ public class HomeController {
 
     @RequestMapping("/hi")
     public String home(@RequestParam(value = "name") String name) {
-        return feignService.home(name);
+        return "FEIGN :" + feignService.home(name);
     }
 
 }

@@ -14,7 +14,7 @@ public class HomeController {
 
     @RequestMapping("/hi")
     public String home(@RequestParam String name) {
-        return homeService.home(name);
+        return "RIBBON :" + homeService.home(name);
 
     }
 
