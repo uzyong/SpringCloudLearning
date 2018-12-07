@@ -10,9 +10,18 @@ public class HiController {
     @Value("${foo}")
     String foo;
 
+    @Value("${goo}")
+    String goo;
     @RequestMapping(value = "/hi")
     public String hi() {
         return foo;
     }
+
+    @RequestMapping(value = "/goo")
+    public String getGoo() {
+        return goo;
+    }
+
+
 
 }
